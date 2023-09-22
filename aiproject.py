@@ -12,6 +12,5 @@ with sr.Microphone() as source:
     except:
          print("Sorry, I did not get that")
 speak = pyttsx3.init()
-if(s=="Sagar"): 
-    speak.say("Tushar is very hushar but with knowdge")
-    speak.runAndWait()
+speak.say(s)
+speak.runAndWait()
