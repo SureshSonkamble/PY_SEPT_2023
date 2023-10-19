@@ -8,6 +8,8 @@ def show():
    n1 = askinteger("Input", "Input an Integer 1")
    n2 = askinteger("Input", "Input an Integer 2")
    print(n1+n2)
+   ans=n1+n2;
+   messagebox.showinfo("showinfo", "Sum"+str(ans))
 
 def sqr():
    n1 = askinteger("Input", "Input an Integer 1")
