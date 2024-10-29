@@ -14,7 +14,7 @@ for i in l:
         y.append(i)
 print(x)
 print(y)
-plt.scatter(x, y)
-plt.show()
+#plt.scatter(x, y)
+#plt.show()
 
 
